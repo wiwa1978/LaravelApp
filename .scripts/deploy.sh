@@ -13,7 +13,7 @@ git stash
 # Pull the latest version of the app
 git pull origin main
 
-# Update permissions
+# Update permissions owners
 sudo chown -R larasail:larasail /var/www/laravel/.scripts/deploy.sh
 
 # Install composer dependencies
