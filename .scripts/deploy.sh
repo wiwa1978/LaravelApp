@@ -14,8 +14,7 @@ git stash
 git pull origin main
 
 # Update permissions
-sudo chown -R larasail:larasail /var/www/laraval/.scripts/deploy.sh
-sudo chmod +x .scripts/deploy.sh
+sudo chown -R larasail:larasail /var/www/laravel/.scripts/deploy.sh
 
 # Install composer dependencies
 composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
